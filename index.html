@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yesha Vyas - Dancer & Event Host</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Loader -->
+<div id="loader">
+  <div class="loader-content">
+    <img src="logo.png" alt="Yesha Vyas Logo">
+    <p>Loading...</p>
+  </div>
+</div>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="logo.png" alt="Yesha Vyas Logo">
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+  <div class="hero-content">
+    <!-- Left side: text -->
+    <div class="hero-text">
+      <img src="logo.png" alt="Yesha Vyas Logo" class="hero-logo">
+      <h1>Yesha Vyas</h1>
+      <p>Dancer & Corporate/Marriage Event Host</p>
+      <button onclick="scrollToSection('contact')">Book Now ✨</button>
+    </div>
+
+    <!-- Right side: image -->
+    <div class="hero-image">
+      <img src="yesha.png" alt="Yesha Vyas" class="hero-photo">
+    </div>
+  </div>
+</section>
+
+  <!-- About -->
+<!-- About -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about-container">
+    
+    <!-- Left side: text -->
+    <div class="about-text">
+      <p>
+        I am <strong>Yesha Vyas</strong>, a passionate <strong>dancer</strong> and 
+        <strong>professional event host</strong> who loves creating unforgettable moments on stage.  
+        With years of experience performing across weddings, cultural festivals, and corporate gatherings,  
+        I bring a unique blend of <em>artistry, confidence, and elegance</em> to every event.  
+      </p>
+      <p>
+        My dance journey has allowed me to explore styles ranging from classical to Bollywood and contemporary,  
+        making every performance vibrant and soulful. Alongside dance, my role as an <strong>anchor/host</strong>  
+        gives me the opportunity to connect with people, keep audiences engaged, and set the perfect tone  
+        for celebrations and formal occasions alike.
+      </p>
+      <p>
+        Whether it’s <strong>a grand wedding sangeet, a lively corporate party, or a cultural show</strong>,  
+        I ensure every moment on stage is filled with joy, energy, and professionalism.  
+        My mission is to not only entertain but also create experiences that stay in the hearts of people forever.  
+      </p>
+    </div>
+
+    <!-- Right side: image -->
+    <div class="about-image">
+      <img src="yesha.png" alt="Yesha Vyas">
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Services -->
+  <section id="services">
+    <h2>My Services</h2>
+    <div class="services">
+      <div class="service-box">
+        <h3>💃 Dance Performances</h3>
+        <p>Elegant classical, contemporary, and Bollywood dance shows.</p>
+      </div>
+      <div class="service-box">
+        <h3>🎤 Event Hosting</h3>
+        <p>Interactive and engaging hosting for weddings, parties, and corporates.</p>
+      </div>
+      <div class="service-box">
+        <h3>✨ Custom Shows</h3>
+        <p>Personalized choreography and stage presence for special occasions.</p>
+      </div>
+    </div>
+  </section>
+
+<!-- Portfolio -->
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="gallery">
+    <video controls>
+      <source src="dance1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+      <source src="event1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+      <source src="dance2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+      <source src="dance3.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+<video controls>
+      <source src="dance4.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/xovnrnwr" method="POST" class="contact-form">
+    
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="phone">Your Phone Number</label>
+    <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="Enter 10 digit number">
+    
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+    
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Yesha Vyas | Designed with 🤍 by CreativeCAT</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
